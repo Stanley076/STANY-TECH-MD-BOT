@@ -55,15 +55,15 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "👊" }, async (dest, zk
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "HANSTZ", numero: "" },
-      { nom: "᚛MR-B.M.B᚜", numero: "255760774888" },
-      { nom: "HANS", numero: "255756530143" },
+      { nom: "STANY-TECH", numero: "" },
+      { nom: "᚛STANY-TECH᚜", numero: "255750638502" },
+      { nom: "TIFAAN", numero: "255612285041" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "WELCOME TO MR-B.M.B MD HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
+    let message = "WELCOME TO STANY-TECH-MD-BOT HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
     for (const dev of devs) {
-      message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
+      message += `----------------\n• ${dev.nom} : https://wa.link/dyxejr/${dev.numero}\n`;
     }
   var lien = mybotpic()
     if (lien.match(/\.(mp4|gif)$/i)) {
@@ -95,7 +95,7 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("THANK YOU FOR CHOOSING MR-B.M.B, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VaucCUJGk1Fw4dk0jk35] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VaucCUJGk1Fw4dk0jk35] \n\n ☉MADE IN TANZANIA☉\n\n❒ MR-B.M.B-MD\n\n\n*Created By B.M.B and MR-B.M.B") 
-  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING MR-B.M.B-MD,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
+  repondre("THANK YOU FOR CHOOSING STANY-TECH-MD-BOT, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VaxKouY7tkj8NiPg0t45] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VaucCUJGk1Fw4dk0jk35] \n\n ☉MADE IN TANZANIA☉\n\n❒ MR-B.M.B-MD\n\n\n*Created By B.M.B and MR-B.M.B") 
+  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING STANY-TECH-MD-BOT,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
 
 })
