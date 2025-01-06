@@ -46,7 +46,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *MR-B.M.B-WABOT*`
+ *STANY-TECH-MD-BOT-WABOT*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -74,10 +74,10 @@ else {
 }
 
     } else {
-        if(!superUser) { repondre("MR-B.M.B-MD-IS-ALIVE") ; return};
+        if(!superUser) { repondre("FUCK YOU-STANY-TECH-MD-BOT-IS-ALIVE") ; return};
 
-      await   repondre("MR-B.M.B-MD-ONLINE🤖ANY-TIME");
-         repondre("MR-B.M.B-MD-NEW-BOT :)")
+      await   repondre("STANY-TECH-MD-BOT ONLINE ALWAYS ");
+         repondre("STANY-TECH-MD-NEW-BOT :)")
      }
  } else {
 
@@ -91,7 +91,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' Holla 🤖, *MR-B.M.B MD BOT* is alive just like you gee. ')
+repondre(' Holla 🤖, *STANY-TECH-MD-BOT* is alive just like you See. ')
 
 }
     });
