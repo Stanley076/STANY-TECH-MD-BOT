@@ -6,12 +6,12 @@ const { default: axios } = require('axios');
 
 
 
-zokou({nomCom:"BMB",reaction:"📡",categorie:"IA"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"STANY",reaction:"📡",categorie:"IA"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,ms,arg}=commandeOptions;
   
     if(!arg || !arg[0])
-    {return repondre("THIS IS BMB IA CAN I HELP THIS TIME.")}
+    {return repondre("THIS IS STANY-TECH IA CAN I HELP THIS TIME.")}
     //var quest = arg.join(' ');
   try{
     
@@ -45,7 +45,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
 
 
 
-  zokou({ nomCom: "hans", reaction: "📡", categorie: "IA" }, async (dest, zk, commandeOptions) => {
+  zokou({ nomCom: "tifan", reaction: "📡", categorie: "IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {
@@ -98,7 +98,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
   });
 
 
-zokou({ nomCom: "Bmbtech", reaction: "🤔", categorie: "IA" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "stanytech", reaction: "🤔", categorie: "IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {
