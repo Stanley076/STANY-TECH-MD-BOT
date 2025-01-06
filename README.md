@@ -3,7 +3,7 @@
 **STANY-TECH-MD-BOT** is a powerful and versatile bot designed to streamline interactions and processes on various platforms.
 
 Stay updated with our WhatsApp channel:  
-[![WhatsApp Channel](https://files.catbox.moe/ybqmmh.jpeg)](https://whatsapp.com/channel/0029VaxKouY7tkj8NiPg0t45)
+[![WhatsApp Channel](https://files.catbox.moe/v8zjum.mp4)](https://whatsapp.com/channel/0029VaxKouY7tkj8NiPg0t45)
 
 ---
 🌟🪔🚀
