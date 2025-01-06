@@ -24,7 +24,7 @@ const{repondre,ms,dev,superUser}=com;
 
   const {exec}=require("child_process")
 
-    repondre("MR-B.M.B-𝙈𝘿 bot Restarting 📡");
+    repondre("STANY-TECH-MD bot Restarting 📡");
 
   exec("pm2 restart all");
   
