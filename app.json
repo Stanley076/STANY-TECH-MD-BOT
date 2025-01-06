@@ -1,6 +1,6 @@
 {
-  "name": "B.M.B-MD-MD",
-  "description": "This BOT was developed by B.m.b-md.",
+  "name": "STANY-TECH-MD-BOT",
+  "description": "This BOT was developed by STANY-TECH-MD-BOT.",
   "keywords": [
     "bot",
     "node",
@@ -8,7 +8,7 @@
     "whatsapp"
   ],
   "logo": "https://files.catbox.moe/q3wuq3.png",
-  "repository": "https://github.com/bmbttz/B.M.B-MD",
+  "repository": "https://github.com/Stanley076",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -44,7 +44,7 @@
     },
     "BOT_NAME": {
       "description": "put A name for your bot",
-      "value": "B.M.B-MD",
+      "value": "STANY-TECH-MD-BOT",
       "required": false
     },
     "BOT_MENU_LINKS": {
@@ -75,12 +75,12 @@
     "OWNER_NAME": {
       "desc": "Your Name",
       "required": false,
-      "value": "MR-B.M.B"
+      "value": "STANY-TECH-MD-BOT"
     },
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
       "required": false,
-      "value": "255741752020"
+      "value": "255750638502"
     },
     "WARN_COUNT": {
       "desc": "this is the limit of warn for warning commandes",
