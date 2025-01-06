@@ -53,7 +53,7 @@ zokou({
   const { repondre: respond, arg: arguments, ms: metadata } = args;
   const factResponse = await fetch("https://nekos.life/api/v2/fact");
   const factData = await factResponse.json();
-  respond("◆━━━━━━✦FACT✦━━━━━━◆ \n*◇* " + factData.fact + "\n\n\n\n\n*◇* Engine by *MR-B.M.B*\n\n╔═════◇\n║◇ *KEEP USING MR-B.M.B MD*\n╚════════════════════> ");
+  respond("◆━━━━━━✦FACT✦━━━━━━◆ \n*◇* " + factData.fact + "\n\n\n\n\n*◇* Engine by *STANY-TECH-TEAM*\n\n╔═════◇\n║◇ *KEEP USING STANY-TECH-MD-BOT*\n╚════════════════════> ");
 });
 
 zokou({
@@ -64,7 +64,7 @@ zokou({
   const { repondre: respond, arg: arguments, ms: metadata } = args;
   const quoteResponse = await fetch("https://favqs.com/api/qotd");
   const quoteData = await quoteResponse.json();
-  const quoteMessage = "\n◆━━━━━━✦QUOTE✦━━━━━━◆ \n◇ _" + quoteData.quote.body + "_\n\n\n◇ *AUTHOR:* " + quoteData.quote.author + "\n\n\n\n\n◇ _Engine by:_ *B.M.B_TECH*\n\n\n╔═════◇\n║◇ *KEEP USING MR-B.M.B-MD*\n╚════════════════════> ";
+  const quoteMessage = "\n◆━━━━━━✦QUOTE✦━━━━━━◆ \n◇ _" + quoteData.quote.body + "_\n\n\n◇ *AUTHOR:* " + quoteData.quote.author + "\n\n\n\n\n◇ _Engine by:_ *STANY-TECH-TEAM*\n\n\n╔═════◇\n║◇ *KEEP USING STANY-TECH-MD-BOT*\n╚════════════════════> ";
   respond(quoteMessage);
 });
 
