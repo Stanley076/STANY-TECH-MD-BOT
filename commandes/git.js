@@ -34,23 +34,23 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
- *MR-B.M.B MD IMPORTANT INFO* 
+ *STANY-TECH-MD-BOT MD IMPORTANT INFO* 
 ❒═══════════════════❒
-*KEEP USING MR-B.M.B MD 2025*
-> THIS IS MR-B.M.B-MD-NEW-BOT
+*KEEP USING STANY-TECH-MD-BOT 2025*
+> THIS IS STANY-TECH-MD-NEW-BOT
 
 *WHATSAPP GROUP*
-> https://whatsapp.com/channel/0029VajJTJp2f3ELCm8FN50D
+> https://whatsapp.com/channel/0029VaxKouY7tkj8NiPg0t45
 ⁠
 ╔═══════════════════❒
 │🖥️⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│🤵.  *DEV1* : *B.M.B*
-│Ⓜ️.  *DEV2* : *HANSTZ*
+│🤵.  *DEV1* : *STANLEY*
+│Ⓜ️.  *DEV2* : *TIFAAN*
 ⁠⁠⁠⁠╔═══════════════════❒
   `;
     
 let menuMsg = `
-     *😇MR-B.M.B-MD-WA-BOT*
+     *😇STANY-TECH-MD-BOT*
 
 ❒════════════════════❒`;
 
