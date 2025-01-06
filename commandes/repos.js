@@ -4,7 +4,7 @@ const { zokou } = require("../framework/zokou");
 
 zokou({ nomCom: "repo", catégorie:"General", reaction: "👊", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
   const githubRepo = 'https://api.github.com/repos/bmbttz/B.M.B-MD';
-  const img = 'https://files.catbox.moe/ifk0zg.png';
+  const img = 'https://files.catbox.moe/v8zjum.mp4';
 
   try {
     const response = await fetch(githubRepo);
@@ -22,7 +22,7 @@ zokou({ nomCom: "repo", catégorie:"General", reaction: "👊", nomFichier: __fi
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `*ʜᴇʟʟᴏᴡ ᴡʜᴀᴛsᴀᴀᴘ ᴜsᴇʀ
-ᴛʜɪs ɪs* *MR-B.M.B-MD .*\n sᴜᴘᴘᴏʀᴛ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ *ʙʏ*,  https://whatsapp.com/channel/0029VaucCUJGk1Fw4dk0jk35
+ᴛʜɪs ɪs* *🅢︎🅣︎🅐︎🅝︎🅨︎ 🅣︎🅔︎🅒︎🅗︎ 🅜︎🅓︎ .*\n sᴜᴘᴘᴏʀᴛ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ *ʙʏ*,  https://whatsapp.com/channel/0029VaucCUJGk1Fw4dk0jk35
 
 ╔═━━━━════──────➳
 ║╔═━━━━━━════─━━─➳
@@ -31,9 +31,9 @@ zokou({ nomCom: "repo", catégorie:"General", reaction: "👊", nomFichier: __fi
 ║║ 🧧 *FORKS:* ${repoInfo.forks}
 ║║ 📅 *RELEASE DATE:* ${releaseDate}
 ║║ 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
-║║ 👨‍💻 *OWNER:* *MR-B.M.B*
-║║ 💞 *NAME:* *MR-B.M.B-MD *
-║║ 🥰 *ENJOY TO USE MR-B.M.B MD * ╚══━━━━════─━━━━──➳
+║║ 👨‍💻 *OWNER:* *🅢︎🅣︎🅐︎🅝︎🅛︎🅔︎🅨︎*
+║║ 💞 *NAME:* *🅢︎🅣︎🅐︎🅝︎🅨︎ 🅣︎🅔︎🅒︎🅗︎ 🅜︎🅓︎ 🅑︎🅞︎🅣︎ *
+║║ 🥰 *ENJOY TO USE STANY-TECH-MD-BOT* ╚══━━━━════─━━━━──➳
 ╚══━━━━════─━━━━──➳`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
