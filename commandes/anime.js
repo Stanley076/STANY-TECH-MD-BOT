@@ -131,7 +131,7 @@ zokou({
     const imdbData = response.data;
 
     let imdbInfo = "Tap on the link to join movie channel on telegram and download movies there : https://t.me/ibrahimtechai\n";
-    imdbInfo += " ``` B.M.B MD FILMS```\n";
+    imdbInfo += " ``` STANY-TECH-MD-BOT FILMS```\n";
     imdbInfo += "*Made by like-father-like-son*\n";
     imdbInfo += "🎬Title    : " + imdbData.Title + "\n";
     imdbInfo += "📅year      : " + imdbData.Year + "\n";
